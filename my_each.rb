@@ -1,6 +1,6 @@
 def my_each(array)
   # code here
-  array.collect do |array, index|
+  array.collect do |array|
     while array
     yield
   end
