@@ -1,8 +1,8 @@
 def my_each(array)
   # code here
-  array.collect do |array|
-    while array
-    yield
+  i = 0 
+    while i < array.length 
+  
   end
   end
 end
